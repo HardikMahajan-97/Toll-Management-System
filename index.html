@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toll Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Toll Management System</h1>
+        
+        <div class="card">
+            <h2>Setup Toll Queue</h2>
+            <div class="input-group">
+                <label for="capacity">Queue Capacity</label>
+                <input type="number" id="capacity" placeholder="Enter Queue Capacity" />
+            </div>
+            <div class="input-group">
+                <label for="tollAmount">Toll Amount</label>
+                <input type="number" id="tollAmount" placeholder="Enter Toll Amount" />
+            </div>
+            <button id="setQueue">Set Queue</button>
+        </div>
+
+        <div class="card">
+            <h2>Manage Vehicles</h2>
+            
+            <div class="input-group">
+                <label for="vehicleNumber">Vehicle Number</label>
+                <input type="text" id="vehicleNumber" placeholder="Enter Vehicle Number" />
+            </div>
+            <div class="input-group">
+                <label for="vehicleType">Vehicle Type</label>
+                <input type="text" id="vehicleType" placeholder="Enter Vehicle Type" />
+            </div>
+            <button id="addVehicle">Add Vehicle</button>
+            <button id="processVehicle">Process Vehicle</button>
+            <button id="resetQueue">Reset Queue</button>
+        </div>
+        
+        <div class="toll-area">
+            <h2>Vehicles in Queue</h2>
+            <ul id="queue"></ul>
+        </div>
+        
+        <div id="message"></div>
+        
+        <div id="stats">
+            <p>Total Vehicles Passed: <span id="totalVehicles">0</span></p>
+            <p>Total Earnings: &#8377;<span id="totalEarnings">0.00</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: rgb(21, 27, 35);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 254, 254, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    background-color: rgb(21, 27, 35);
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid rgb(21, 27, 35);
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#queue {
+    list-style-type: none;
+    padding: 0;
+}
+
+#queue li {
+    background-color: #1f1e1e;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(255, 254, 254, 0.1);
+}
+
+#message {
+    margin: 20px 0;
+    text-align: center;
+    color: #d35400;
+    font-size: 1.1rem;
+}
+
+#stats {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#stats p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    background-color: rgb(31, 30, 30);
+
+}
+
+.toll-area {
+    margin-top: 20px;
+    background-color: rgb(21, 27, 35);
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(238, 235, 235, 0.1);
+}
